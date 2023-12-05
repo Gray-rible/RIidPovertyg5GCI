@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <title>Global Citizenship Isue</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <style>
+          body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    width:1100px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto; /* Center the content */
+}
+         .logo{
+           margin-top: -30px;
+           margin-left: -30px;
+           font-size:10px;
+           background-image: url('logoo.png');
+           height: 30px;
+           width:30px;
+           background-size: cover;
+         }
+          header {
+              
+              height: 300px; 
+              width:max;
+              background-color: #333;
+              color: White;
+              text-align: center;
+              padding: 40px;
+              background-image: url('back.png');
+              background-size: cover;
+          }
+            .body{
+          width: max;
+          }
+          .taas{
+            z-index: 100;
+          }
+          nav {
+              background-color: white;
+              width:max;
+              position:  sticky;
+              top: 0px;
+              text-align: center;
+              padding-top: 20px;
+              padding-bottom: 2px;
+              padding-right: 50px;
+              padding-left: 50px;
+              
+              z-index: 900;
+          }
+          header h4{
+            margin-top: -17px;
+          }
+          h2{
+             font-family: Franklin Gothic Medium;
+          }
+          
+          h1 {
+              margin: 0;
+          }
+        
+          nav a {
+              width:50px;
+              color: black;
+              text-decoration: none;
+              font-weight: 10px;
+              padding: 13px;
+              cursor: pointer;
+          }
+           nav  a.home{
+           text-align:center;
+           padding:12px 80px 12px 80px;
+           color: whitesmoke;
+           text-decoration: none;
+           font-weight: 10px;
+           margin-left: -200px ;
+           margin-top: -11px;
+           background-color: #566b30;
+           border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            cursor: pointer;
+            position:absolute;
+            z-index: 200;
+          }
+          nav  a.home:hover{
+           text-align:center;
+           padding:12px 80px 12px 80px;
+           color: whitesmoke;
+           text-decoration: none;
+           font-weight: 10px;
+           margin-left: -200px ;
+           margin-top: -11px;
+           background-color: #b4c195;
+           border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            cursor: pointer;
+            position:absolute;
+            z-index: 200;
+            
+          }
+          nav  a.about{
+           text-align:center;
+           padding:11px 30px 11px 120px;
+           color: whitesmoke;
+           width: 100px;
+           text-decoration: none;
+           font-weight: 10px;
+           margin-top: -11px;
+           margin-left: -110px ;
+           background-color: #6b8047;
+           color: white;
+           border-top-right-radius: 50px;
+           position:absolute;
+           z-index: 180;
+          }
+          nav a.about:hover {
+            text-align: center;
+            padding: 11px 60px 12px 60px;
+            color: whitesmoke;
+            width: 100px;
+            text-decoration: none;
+            font-weight: 10px;
+            margin-top: -11px;
+            margin-left: -100px;
+            background-color: #b4c195;
+            color: white;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            position: absolute;
+            z-index: 500;
+          
+          }
+          nav  a.faq{
+           text-align:center;
+           padding:11px 65px 11px  100px;
+           color: whitesmoke;
+           width: 0px;
+           text-decoration: none;
+           font-weight: 10px;
+           margin-top: -11px;
+           margin-left: 85px ;
+           background-color:  #849b64 ;
+           color: white;
+           border-top-right-radius: 50px;
+           position:absolute;
+           z-index: 170;
+           
+          }
+          nav a.faq:hover {
+            text-align: center;
+            padding: 11px 95px 13px 95px;
+            color: whitesmoke;
+            width: 0px;
+            text-decoration: none;
+            font-weight: 10px;
+            margin-top: -11px;
+            margin-left: 50px;
+            background-color: #b4c195;
+            color: white;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            position: absolute;
+            z-index: 510;
+          
+          }
+          nav  a.contact{
+           text-align:center;
+           padding: 11px 50px 11px 50px;
+           color: whitesmoke;
+           width: 0px;
+           text-decoration: none;
+           font-weight: 10px;
+           margin-top: -11px;
+           margin-left: 210px ;
+           background-color: #a9b58a;
+           color: white;
+           border-top-right-radius: 50px;
+           z-index: 160;
+           
+          }
+          nav a.contact:hover {
+            text-align: center;
+            padding: 11px 50px 11px 80px;
+            color: whitesmoke;
+            width: 0px;
+            text-decoration: none;
+            font-weight: 10px;
+            margin-top: -11px;
+            margin-left: 180px;
+            background-color: #b4c195;
+            color: white;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            z-index: 500;
+          }
+          .about{
+            margin-left: 20px ;
+          }
+          nav a.faq {
+            
+          }
+          nav  a.home:hover{
+           
+           
+          }
+          .asking{
+            margin-top: 20px;
+            margin-left: 30px;
+            height: 300px;
+            width: 400px;
+            background-image: url('ask.png');
+            background-size: cover;
+            background-position-y: -0px;
+            background-position-x: 0px;
+          }
+          .second{
+            margin-top: -80px;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-repeat: none;
+            height: max;
+            width: max;
+            border-style: solid;
+            border-width: 8px;
+            border-color: #566b30;
+            padding:10px;
+            background-color: #b4c195;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            
+            
+          }
+         .yesi {
+           margin-top:-20px;
+           margin-bottom: 0px;
+           text-align: center;
+           color: white;
+           position: sticky;
+           top:35px;
+           background-color: #566b30;
+           width: max;
+          margin-right: -18px;
+           margin-left: -17px;
+           padding-top: 25px;
+           padding-bottom:25px;
+           
+         }
+         .eight{
+           
+           margin-left: 550px;
+         }
+          .list{
+            height: 300px;
+            overflow: scroll;
+            margin-top:-10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: white;
+            
+          }
+         .list  p{
+            font-size: 15px;
+           margin-left: 30px;
+           text-align: left;
+            
+          }
+          .popu{
+            margin-top: 80px;
+            
+          }
+             .popdef{
+            color:white;
+            width: 250px;
+            text-align: center;
+            
+          }
+        .population{
+          
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image: url('pop.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+           .env{
+             margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('environment.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+         .income{
+           margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('inc.png');
+            background-size: cover;
+            border-radius: 8px;
+         }
+          .con{
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('conflict.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+          .educ{
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('educ.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+           .bar{
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('bar.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+            .col{
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('col.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+         .glo{
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right:-10px;
+            width: max;
+            height: 300px;
+            background-image:url('glo.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+          .aid {
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            width: max;
+            height: 300px;
+            background-image: url('aid.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+          .eco {
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: -10px;
+            width: max;
+            height: 300px;
+            background-image: url('eco.png');
+            background-size: cover;
+            border-radius: 8px;
+          }
+          footer {
+             
+              height: 700px;
+              background-color: #566b30 ;
+              padding-top: 200px;
+              color: #fff;
+              text-align: center;
+              padding: 10px;
+          }
+       
+     
+          .down{
+            margin-top: 100px;
+            margin-bottom: 0px;
+          }
+   
+         
+          
+          .pov{
+          font-size: 100px;
+             font-family: Arial,  
+
+            Helvetica, sans-serif; 
+          background: linear-gradient( 
+          
+             to right,  #46542d, #46542d,
+           
+              #9bac7d , #46542d, #869368); 
+
+        -webkit-text-fill-color: transparent; 
+
+        -webkit-background-clip: text;
+          }
+        
+          
+          
+   <!-----C---A----R---O---U---S----E----L--------->
+     
+    
+     .pagod{
+        margin:0;
+        height: 500px;
+        
+        background-image: url('pagod.png');
+        background-size: cover;
+      }
+       .carousel-container {
+      width: 1100px;
+      height:auto;
+      margin-top:-108px;
+      overflow: hidden;
+      position:relative;
+      border-radius: 20px;
+      z-index: 70;
+    }
+
+    .carousel {
+      height: 500px;
+      width: max;
+      margin-top: -100px;
+      display: flex;
+      transition: transform 0.5s ease;
+      position:absolute
+      z-index: 2;
+    }
+ 
+    .carousel img {
+      
+      margin-top: 100px;
+      
+    }
+
+    .arrow {
+      position: absolute;
+      transform: translateY(-50%);
+      font-size: 50px;
+      cursor: pointer;
+      color: #333;
+      z-index: 80;
+    }
+ .prev {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:5px 0px 5px 21px;
+      height:max;
+      content: center;
+      padding-right:30px;
+      margin-top: -180px;
+      margin-left: 10px;
+      background-color: black;
+      opacity: 60%;
+      color: white;
+      border-radius: 50px;
+      position:absolute;
+     
+      cursor: pointer;
+    }
+
+    .next {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding:5px 0px 5px 18px;
+      height:max;
+      content: center;
+      padding-right:30px;
+      margin-top: -180px;
+      margin-left: 1000px;
+      background-color: black;
+      opacity: 60%;
+      color: white;
+      border-radius: 50px;
+      position:absolute;
+      
+      cursor: pointer;
+      
+    }
+
+    .dots {
+      position: absolute;
+      top: 2190px;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+    }
+    .dot {
+      
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #bbb;
+      margin: 0 5px;
+      cursor: pointer;
+      background-color: ;
+    }
+    .dot.active {
+      background-color:  black;
+    }
+    
+   <!-----C---A----R---O---U---S----E----L--------->
+     
+         h1.last{
+           color:  #566b30;
+           margin-left: 300px;
+           font-size: 30px;
+         }
+         .bullets{
+           color:  #566b30;;
+           margin-left: 80px;
+           
+          
+         }
+         .infos{
+           width: 500px;
+           color: black;
+           margin-left: 250px;
+           
+         }
+         
+         
+         
+         
+         
+         
+         
+      </style>
+  </head>
+  <body>
+    
+    <div>
+      <header>
+        <div class="logo"><p style="font-size:15px;margin-left:15px;margin- top:10px; 
+                    position: sticky;
+                    top: 0;color:    #b4c195"
+                    ></div>
+         <h1 class="pov"><i>POVERTY</i>  </h1>
+          <h4 style="font-size:20px;margin-top: 0px;">as a <strong>Global Citizenship Issue</strong></h4>
+          
+      </header>
+       <div class="body">
+    
+      
+        <div style="position:sticky;top:0px;z-index: 100;">
+               <div class="taas">
+      <nav  >
+          <div>
+          <a class="home" href="index.html"><strong>HOME</strong></a>
+          <a class="about"  href="about.html"><strong>About Us</strong></a>
+           <a class="faq" href="faq.html"><strong>FAQ</strong></a>
+          <a class="contact" href="contact.html"><strong>Contacts</strong></a>
+          <p class="hhg" style="
+                      color:  #b4c195;
+                      font-size: 25px;
+                      margin-right:0px;
+                      margin-top: -40px; 
+                      margin-left:900px;
+                      margin-bottom: 0px;
+                      padding:10px; 
+                      
+                      position: sticky;
+                      top: 0;
+                  
+                     z-index= 900;"> GreyRible</p>
+      </nav> 
+      </div>
+      </div>
+      
+      <div style="background-color:#566b30;padding-bottom:40px;margin-bottom: 100px; padding-top:50px;height: 580px;">
+          <h1 style="color:white;font-size:50px;margin-left:150px;padding-top:30px;margin-top: -20px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);"> WHAT IS</h1>
+        <h1 style="color:#b4c195;font-size:70px; margin-left:180px;margin-bottom:10px;margin-top: -20px;overflow:hidden;"><i>POVERTY?</i> </h1>
+          
+          <div class="asking"></div>
+          
+           <div style="height:385px;width:600px;background-color:black;margin-top: -320px;margin-left:400px;opacity:30%;padding-bottom:100px;"></div>
+           
+          <div style="margin-top:-540px;margin-left:400px;padding:50px;position:absolute;z-index:70;">
+            
+            
+          <p style=width:500px;color:white;> Poverty can be defined as a state of  , where individuals or communities lack The resources and capabilities needed to meet basic needs.
+          </p>
+          <p style=width:500px;color:white;>
+           The measurement of poverty varies across countries, but commonly includes income, access to education, healthcare, and living conditions.</p>
+           <h3 style="color:#b4c195;">The World Bank Describes poverty in this way:</h3>
+           <blockquote>
+           <p style="width:430px;color:white;margin-left:30px"><i>"The 
+Poverty is hunger. Poverty is lack of shelter. Poverty is being sick and not being able to see a doctor. Poverty is not having access to school and not knowing how to read. Poverty is not having a job, is fear for the future, living one day at a time."</i></p></blockquote>
+    <blockquote>
+ <p style=width:430px;color:white;margin-left:30px;><i>
+"Poverty has many faces, changing from place to place and across time, and has been described in many ways.  Most often, poverty is a situation people want to escape. So poverty is a call to action -- for the poor and the wealthy alike -- a call to change the world so that many more may have enough to eat, adequate shelter, access to education and health, protection from violence, and a voice in what happens in their communities.”</i></p>
+    </blockquote>
+           </div>
+      </div>
+           <div class="second">
+          <h1 class="yesi" style="color:white">What are the  <strong style="color:#b4c195;font-size:40px;"><i>FACTORS</i></strong> causing Poverty?</h1>
+          <div class="list">
+            
+            <div class="population" >
+               
+                <div class="popdef">
+                   <h3 class="test" style="padding-top:30px;">● POPULATION GROWTH</h3>
+         <p stye="color:white;">Rapid population growth, especially in developing nations, strains
+         resources and job opportunities, making it challenging to lift everyone out of poverty. 
+         In the worst cases, even sufficient food can be impossible to supply. In countries with very high population growth, huge numbers of dependent children in comparison to economically productive adults create a further burden.
+          </p>
+          </div>
+               
+           </div>
+            
+            
+            <div class="env">
+            
+         <h3 style="padding-top:30px;margin-left: 640px;">● ENVIRONMENTAL FACTORS</h3>
+          <p style=width:250px;color:white;margin-top:0px;margin-left:650px;>Climate change, natural disasters, and resource depletion disproportionately impact vulnerable communities, exacerbating poverty.    </p>
+         </div>
+         
+         <div class="income">
+           
+            <h3 style="padding-top:30px;margin-left: 20px;">● INCOME INEQUALITY</h3>
+       <p style="width:250px;color:white;margin-top:0px;margin-left:30px;"> 
+            Disparities in income and wealth within and between countries contribute to poverty, making it difficult for those at the bottom of the economic ladder to improve their lives.    </p>
+         </div>
+       
+         
+       <div class="educ">
+            <h3 style="padding-top:30px;margin-left:640px;">● LACK OF ACCESS TO EDUCATION AND HEALTHCARE</h3>
+               <p style=width:250px;color:white;margin-top:0px;margin-left:650px;> 
+               Unequal access to education and healthcare limits individuals' ability to escape poverty and participate in the global economy..</p>
+        </div>
+            
+            
+        <div class="con">
+         <h3  style="padding-top:30px;margin-left: 20px;">● CONFLICT AND INSTABILITY</h3> 
+               <p style=width:250px;color:white;margin-top:0px;margin-left:30px;> 
+               Ongoing conflicts and political instability in various parts of the world hinder development efforts, trapping people in poverty </p>
+        </div>
+        
+ 
+        <div class="bar">
+            <h3 style="padding-top:30px;margin-left: 640px;">● STRUCTURAL BARRIERS</h3>
+               <p style=width:250px;color:white;margin-top:0px;margin-left:650px;> 
+               Discrimination, corruption, and lack of economic opportunities create structural barriers that perpetuate poverty in many regions.</p>
+        </div>
+         
+      <div class="col">
+         <h3  style="padding-top:30px;margin-left: 20px;">● COLONIALISM AND EXPLOITATION</h3> 
+               <p style=width:250px;color:white;margin-top:0px;margin-left:30px;> 
+               Historical colonialism and exploitation of resources in many regions left lasting economic disparities, contributing to poverty in formerly colonized countries.</p>
+        </div>
+        
+       <div class="glo">
+            <h3 style="padding-top:30px;margin-left: 640px;">● GLOBALIZATION</h3>
+               <p style=width:250px;color:white;margin-top:0px;margin-left:650px;> 
+               While globalization has brought economic growth, it has also increased inequality, as wealth and opportunities are not distributed equally among nations and individuals.</p>
+        </div>
+        
+          <div class="aid">
+         <h3  style="width:300px;padding-top:30px;margin-left: 20px;">● INTERNATIONAL AID and DEVELOPMENT EFFORTS</h3> 
+               <p style=width:250px;color:white;margin-top:0px;margin-left:30px;> 
+               Global organizations and initiatives, like the United Nations and foreign aid programs, play a role in addressing poverty but face challenges in achieving sustainable progress..</p>
+        </div>
+        
+         <div class="eco">
+            <h3 style="padding-top:30px;margin-left: 640px;">● ECONOMIC INTERDEPENDANCE</h3>
+               <p style=width:250px;color:white;margin-top:0px;margin-left:650px;> 
+               The global economy is highly interconnected, with countries relying on trade and investment. Poverty in one region can affect supply chains, markets, and economic stability worldwide..</p>
+        </div>
+         <p>Addressing global poverty requires collaborative efforts, policy changes, and sustainable development strategies to ensure a more equitable and prosperous world for all.</p>
+          </div>
+        </div>
+         
+        
+    <!-----C---A----R---O---U---S----E----L--------->
+      <div>
+         <div class="absolute" style="background-image: url('cactus.png');height: max;background-size: cover; width:max;z-index: 100;">
+           <h1 style="font-size: 40px;;padding-top: 40px;margin-left: 200px;color:white;margin-bottom:0px;padding-bottom:0px;margin-top:20px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);z-index: 100;">
+             What are the </h1>
+           <strong style="color:#b4c195;margin-top:0px;padding-top:0px;font-size:50px;margin-left: 380px;font-weight:800;">
+             <i stye="margin-top:-200px;">EFFECTS</i>
+           </strong>
+          <h1 style="font-size:40px;padding-top: 0px;margin-left: 550px;color:white;margin-bottom:0px;padding-bottom:30px;margin-top: 0px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 50);;">
+           of poverty?</h1>
+           
+          </div>
+          
+      <div style="background-color: #566b30 ;width:max;height:500px;margin-top:88px;z-index: 50;">
+          <div class="carousel-container">
+    <div class="carousel">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+      <img src="image4.jpg" alt="Image 4">
+      <img src="image5.jpg" alt="Image 5">
+      <!-- Add more images as needed -->
+    </div>
+
+     </div>
+        <div class="dots" id="dots-container"></div>
+    <div class="arrow prev" onclick="prevSlide()" ><</div>
+    <div class="arrow next" onclick="nextSlide()">></div>
+        <p style="color:#b4c195; width: 700px;font-size:20pz;text-align:center;margin-left:200px;"> Addressing global poverty is a complex challenge that requires international cooperation, policy reforms, investment in education and healthcare, and efforts to reduce inequality. By tackling poverty, we can work toward a more equitable and sustainable world for all.</p>
+     </div>
+     </div>
+    
+  <script>
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      const carousel = document.querySelector('.carousel');
+      const slideWidth = document.querySelector('.carousel img').clientWidth;
+      const dotsContainer = document.getElementById('dots-container');
+
+      if (index < 0) {
+        currentIndex = carousel.children.length - 1;
+      } else if (index >= carousel.children.length) {
+        currentIndex = 0;
+      } else {
+        currentIndex = index;
+      }
+
+      carousel.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+
+      // Update dots
+      const dots = Array.from(dotsContainer.children);
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentIndex);
+      });
+    }
+
+    function nextSlide() {
+      showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      showSlide(currentIndex - 1);
+    }
+
+    // Initialize dots
+    const carousel = document.querySelector('.carousel');
+    const dotsContainer = document.getElementById('dots-container');
+    for (let i = 0; i < carousel.children.length; i++) {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      dot.addEventListener('click', () => showSlide(i));
+      dotsContainer.appendChild(dot);
+    }
+    // Show initial slide
+    showSlide(currentIndex);
+  </script>
+   <!-----C---A----R---O---U---S----E----L--------->
+   
+     <div style="margin-top: 80px;height: 700px; width:970px;z-index:5;"></div> 
+        <div style="z-index: 10;">
+        <div style="margin-top: -700px;background-color: rgba(86, 107, 48, 0.3); 
+        margin-left:90px; margin-right: 90px; padding-top: 60px; padding-bottom: 60px;">
+          <div>
+        <h1 class="last" style="color: #566b30; text-align: center;"> SOLUTIONS AND INTERVENTIONS</h1>
+        </div>
+        <div>
+          <h3 class="bullets">
+            1. Education and Skill Development
+          </h3>
+          <p class="infos">
+            Investing in quality education and vocational training can empower individuals to break free from the cycle of poverty.
+          </p>
+        </div>
+        
+        <div>
+          <h3 class="bullets">
+           2. Job Creation and Economic Growth
+          </h3>
+          <p class="infos">
+            Encouraging entrepreneurship, attracting investments, and creating sustainable job opportunities are vital for poverty reduction.
+          </p>
+        </div>
+          
+          <div>
+          <h3 class="bullets">
+          3.Social Protection Programs:
+          </h3>
+          <p class="infos">
+            Implementing comprehensive social safety nets, including conditional cash transfers and basic income schemes, can provide temporary relief and support to those living in poverty.
+          </p>
+        </div>
+        
+        <div>
+          <h3 class="bullets">
+       4. Gender Equality and Empowerment:
+          </h3>
+          <p class="infos">
+        Promoting equal rights, access to resources, and opportunities for women can significantly reduce poverty rates.
+          </p>
+        </div>
+        
+        <div>
+          <h3 class="bullets">
+       5.  Sustainable Development: 
+          </h3>
+          <p class="infos">
+        Prioritizing environmental conservation, renewable energy, and sustainable practices helps to alleviate poverty and ensure long-term prosperity.
+
+          </p>
+        </div>
+        
+        <div>
+          <p style="width:800px;color: #566b30; text-align: center; margin-left: 60px;">
+        Poverty is a multifaceted issue that requires a holistic approach involving governments, organizations, and individuals. By understanding the causes, consequences, and potential solutions, we can collectively work towards eradicating poverty. Let us join hands and strive for a world where every individual has equal access to opportunities, resources, and a life free from the chains of poverty.
+          </p>
+        </div>
+   </div>
+   </div>
+   
+   
+    <div style="position : absolute;
+                top: 950px;
+                z-index: 0;">
+      <nav class="lm" 
+                style="border: 2px solid #6b8047;
+                       background-color: white ;
+                       color:black;
+                       padding: 10px 20px 10px 20px;
+                       border-radius: 20%;
+                       margin-left: 160px;
+                       font-size: 20px;
+                       color:  #b4c195;">
+        <a class="learn-more" href="learn_more.html" style="color:  #566b30;"> Learn More 
+        </a>
+      </nav>
+    </div>
+   
+   
+   
+      <div class="down">
+      <footer style=margin-top:0px;>
+          &copy; 2023 My Website
+       
+         </div>
+      
+      </footer>
+    
+    </div>
+    </div>
+  </body>
+  </html>
+     
